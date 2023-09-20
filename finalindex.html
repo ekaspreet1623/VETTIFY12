@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: black;">VETTIFY</title>
+    <style type="text/css">
+        body
+        {
+          padding: 0;
+          margin: 0;
+          background-color: rgb(212, 163, 179);
+        }
+        h1{
+            font-size: 5em;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family:'copperplate gothic';
+        }    
+        .categoryContainer {
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            gap: 1%;
+        }
+        
+        .category {
+            flex-basis: 24%;
+            text-align: center;
+        }
+
+        .category>img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+    <header><h1 style="color: black " ;>WELCOME TO VETTIFY</h1></header>
+    <main>
+        <div><h2 style="font-size: x-large;font-family:'consolas';margin: 100px;">CHOOSE THE PRODUCT YOU WANT TO REVIEW :</h2></div>
+       
+        
+        <ol class="categoryContainer">
+            <li class="category">
+                <img src="https://i.pinimg.com/564x/0f/6d/a2/0f6da2892386a31a321868d06d59330c.jpg" alt="facewash">
+                <a href="/facewash.html">Facewash</a>
+            </li>
+            <li class="category">
+                <img src="https://images.unsplash.com/photo-1575249142951-35b95b9bb5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="facewash">
+                <a href="/serum.html">Serum</a>
+            </li>
+            <li class="category">
+                <img src="https://i.pinimg.com/564x/59/c1/72/59c172d0394865a7448a6646299a480a.jpg" alt="facewash">
+                <a href="/moisturiser.html">Moisturiser</a>
+            </li>
+            <li class="category">
+                <img src="https://i.pinimg.com/564x/2d/1e/de/2d1ede723fb91cb7d29f38f9a14d282d.jpg" alt="facewash">
+                <a href="/toner.html">Toner</a>
+            </li>
+
+        </ol>
+    </main>
+    
+</body>
+</html>
